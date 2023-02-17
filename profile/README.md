@@ -15,4 +15,4 @@ We welcome contributions from the community to help us achieve our mission. If y
 ## Fun Facts 🎉
 
 - Our team is made up of people from all over the world.
-- We love to have breakfast meetings to start our day off right.
+- We love Open Source.
