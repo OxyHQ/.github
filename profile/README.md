@@ -1,6 +1,6 @@
-# Kaana: The Company Creating a Better World Through Connections and Technology 👥🌐🌍
+# Oxy: The Company Creating a Better World Through Connections and Technology
 
-At Kaana, we believe that technology can empower individuals and communities to make a positive impact on the world. Our mission is to remove barriers and make the online world more inclusive for everyone.
+At Oxy, we believe that technology can empower individuals and communities to make a positive impact on the world. Our mission is to remove barriers and make the online world more inclusive for everyone.
 
 ## Our Values 💫
 
