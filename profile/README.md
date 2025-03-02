@@ -43,7 +43,6 @@ There are numerous ways to contribute to Oxy:
 
 - **Website**: [Oxy.so](https://oxy.so)
 - **Newsroom**: [Oxy Newsroom](https://oxy.so/newsroom)
-- **X**: [@Oxy_Ecosystem](https://x.com/oxy_hq)
 
 ---
 
