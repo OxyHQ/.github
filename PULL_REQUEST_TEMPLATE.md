@@ -1,15 +1,23 @@
-## What kind of change does this PR introduce?
+## Summary
 
-Bug fix, feature, docs update, ...
+<!-- Brief description of changes -->
 
-## What is the current behavior?
+## Type of change
 
-Please link any relevant issues here.
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Documentation update
+- [ ] Refactoring
+- [ ] Infrastructure / CI
 
-## What is the new behavior?
+## Test plan
 
-Feel free to include screenshots if it includes visual changes.
+<!-- How was this tested? -->
 
-## Additional context
+## Checklist
 
-Add any other context or screenshots.
+- [ ] My code follows the project's coding standards
+- [ ] I have tested my changes
+- [ ] I have updated documentation if needed
+- [ ] My changes do not introduce security vulnerabilities
