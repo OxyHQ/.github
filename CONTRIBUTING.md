@@ -1,42 +1,54 @@
 # Contributing
 
-We highly appreciate feedback and contributions from the community! If you'd like to contribute to this project, please make sure to review and follow the guidelines below.
+We appreciate contributions from the community. Please review and follow the guidelines below.
 
-## Code of conduct
+## Getting Started
 
-In the interest of fostering an open and welcoming environment, please review and follow our [code of conduct](./CODE_OF_CONDUCT.md).
+1. Review our [Engineering Standards](https://github.com/OxyHQ/engineering) for code quality expectations and conventions.
+2. Read our [Code of Conduct](./CODE_OF_CONDUCT.md).
+3. Check the [Project Board](https://github.com/orgs/OxyHQ/projects/14) for open issues and priorities.
 
-## Code and copy reviews
+## Code and Copy Reviews
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests.
 
-## Report an issue
+## Report an Issue
 
 Report all issues through GitHub Issues using the [Report a Bug](https://github.com/OxyHQ/.github/issues/new?template=1.Bug_report.md) template.
 
 To help resolve your issue as quickly as possible, read the template and provide all the requested information.
 
-## File a feature request
+## File a Feature Request
 
 We welcome all feature requests, whether it's to add new functionality to an existing extension or to offer an idea for a brand new extension.
 
 File your feature request through GitHub Issues using the [Feature Request template](https://github.com/OxyHQ/.github/issues/new?template=2.Feature_request.md).
 
-## Create a pull request
+## Create a Pull Request
 
-When making pull requests to the repository, make sure to follow these guidelines for both bug fixes and new features:
+When making pull requests to the repository, follow these guidelines:
 
 - Before creating a pull request, file a GitHub Issue so that maintainers and the community can discuss the problem and potential solutions before you spend time on an implementation.
 - In your PR's description, link to any related issues or pull requests to give reviewers the full context of your change.
-- For commit messages, follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
-  - For example, if you update documentation for a specific extension, your commit message might be: `docs(extension-name) updated installation documentation`.
+- Follow the [Engineering Standards](https://github.com/OxyHQ/engineering) for code quality, naming conventions, and testing.
+- Keep PRs focused — one logical change per PR.
+- Ensure your changes do not introduce security vulnerabilities.
 
 ### Features
 
 Before creating pull requests for new features, first file a GitHub Issue describing the reasoning and motivation for the feature. This gives maintainers and the community the opportunity to provide feedback on your idea before implementing it.
+
+## Developer Setup
+
+To set up the shared engineering standards for Claude Code:
+
+```bash
+git clone https://github.com/OxyHQ/engineering.git
+cd engineering
+./install.sh
+```
+
+See the [engineering repo](https://github.com/OxyHQ/engineering) for details.
 
 ## License
 
