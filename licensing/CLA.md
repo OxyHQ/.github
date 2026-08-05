@@ -1,0 +1,166 @@
+# Contributor License Agreement
+
+> **Status: proposal.** Not yet in force. Not legal advice; have a lawyer review
+> this before accepting signatures against it.
+
+## Why this exists, in one paragraph
+
+Oxy offers its applications under two licenses: the free
+[Breathe License](../LICENSE-BREATHE.md) and the paid
+[Commercial Terms](../LICENSE-COMMERCIAL.md). Only the copyright holder can
+offer a second license for a work. So the moment a contribution Oxy does not own
+is merged into a Breathe repository, Oxy can no longer offer the Commercial
+Terms for that repository, because Oxy cannot license out somebody else's
+copyright. That is a one way door: until the contributor is tracked down and
+asked, the commercial arm for that repository is dead. This agreement prevents
+that, by having contributors grant Oxy the rights it needs while **keeping
+ownership of their own work**.
+
+## Why a DCO is not enough
+
+A Developer Certificate of Origin certifies that you had the right to submit
+your contribution under the project's existing license. It does **not** give the
+project the right to relicense your contribution under different, proprietary
+terms. For a single licensed open source project a DCO is the right, lighter
+tool. For a dual licensed project it does not do the necessary job. Oxy needs a
+CLA.
+
+## What you are and are not agreeing to
+
+**You keep the copyright in your contribution.** This is a license, not an
+assignment. You may use, publish, sell, or relicense your own work anywhere else,
+without asking Oxy.
+
+**Oxy gets a broad license, including the right to sublicense.** That is the
+part that lets Oxy keep offering the Commercial Terms. It also means Oxy can
+offer your contribution under a proprietary license to a paying customer.
+
+**Be clear eyed about that last point.** Some people will not sign this, on the
+principled ground that a company should not be able to sell their donated work
+under terms they themselves are not offered. That is a reasonable position and
+Oxy will not argue with anyone who holds it. If you would rather contribute to a
+project without a CLA, Oxy's SDK and UI layer is Apache-2.0 and takes
+contributions under a DCO only. See [`README.md`](README.md).
+
+## Which repositories require it
+
+**Required:** every repository in the Breathe layer, because those are the ones
+with a commercial arm. `@oxyhq/api`, `@oxyhq/node`, `website`, `Mention`,
+`CrowdSource`, `Syra`, `Mercaria`, `Homiio`, `Moovo`, `Space`, `Allo`, `Alia`,
+`OxyPay`.
+
+**Not required:** the Apache-2.0 SDK and UI layer. Apache-2.0 already contains
+an inbound contribution grant at its Section 5, which is sufficient. A DCO
+sign off is enough there, and keeping the barrier low on that layer is the whole
+point of it being permissive.
+
+## How to run it, the lightest way
+
+1. Put [the agreement text](#the-agreement) in each Breathe repository, or once
+   in `OxyHQ/.github` and link to it.
+2. Install **CLA Assistant**, a free GitHub app. It comments on a first time
+   contributor's pull request, takes a signature by clicking a button, and
+   stores signatures in a repository you control. No email, no PDFs, no lawyers
+   in the loop.
+3. Make its status check **required** on protected branches, so an unsigned pull
+   request cannot merge.
+4. Configure it to skip bots and to skip Oxy's own accounts.
+
+Setup is roughly thirty minutes organisation wide. Alternatives if CLA Assistant
+does not fit: the EasyCLA service from the Linux Foundation, which is heavier and
+built for corporate contributors, or a GitHub Action that checks signatures
+against a file in the repository.
+
+**Do this before announcing any license change.** The announcement is what draws
+attention, and attention is what produces the first outside pull requests.
+
+## Corporate contributors
+
+If you are contributing as part of your job, your employer may own your work. In
+that case have someone authorised to bind the company sign on its behalf, listing
+the accounts covered. The same text works; the signature line differs. Ask
+`<licensing@EXAMPLE>`.
+
+---
+
+## The agreement
+
+### Oxy Individual Contributor License Agreement, Version 1.0
+
+Thank you for contributing to Oxy. This agreement sets out the terms on which
+you contribute. It is deliberately short.
+
+**1. Definitions.** "You" means the individual who accepts this agreement.
+"Contribution" means any original work of authorship, including any changes or
+additions to an existing work, that you intentionally submit to Oxy for
+inclusion in any project owned or managed by Oxy. "Submit" means any form of
+communication sent to Oxy or its representatives, including on electronic
+mailing lists, source code control systems, and issue tracking systems, but
+excluding communication you conspicuously mark as "Not a Contribution".
+
+**2. You keep your copyright.** This agreement does not transfer ownership of
+your Contribution. You remain free to use, publish, license, and sell your own
+Contribution however you wish, without restriction and without notifying Oxy.
+
+**3. Copyright license.** You grant Oxy and to recipients of software
+distributed by Oxy a perpetual, worldwide, non exclusive, no charge, royalty
+free, irrevocable copyright license to reproduce, prepare derivative works of,
+publicly display, publicly perform, sublicense, and distribute your Contribution
+and such derivative works.
+
+**4. Right to sublicense under any terms.** You expressly agree that the license
+in Section 3 includes the right for Oxy to sublicense your Contribution, and
+works derived from it, under any license terms Oxy chooses, including
+proprietary and commercial terms, and to charge a fee for doing so. **This is
+the provision that lets Oxy offer its commercial license, and it is the reason
+this agreement exists.**
+
+**5. Patent license.** You grant Oxy and to recipients of software distributed by
+Oxy a perpetual, worldwide, non exclusive, no charge, royalty free, irrevocable
+patent license to make, have made, use, offer to sell, sell, import, and
+otherwise transfer your Contribution, where such license applies only to those
+patent claims licensable by you that are necessarily infringed by your
+Contribution alone or by combination of your Contribution with the project to
+which it was submitted. If any entity institutes patent litigation alleging that
+your Contribution, or the work it was submitted to, constitutes direct or
+contributory patent infringement, any patent licenses granted to that entity
+under this agreement terminate as of the date such litigation is filed.
+
+**6. You are entitled to grant this.** You represent that each of your
+Contributions is your original creation, and that you are legally entitled to
+grant the licenses above. If your employer has rights to intellectual property
+you create, you represent that you have received permission to make the
+Contribution on behalf of that employer, that your employer has waived those
+rights, or that your employer has executed a separate corporate agreement with
+Oxy.
+
+**7. Third party material.** If you submit work that is not your original
+creation, you may submit it separately from any Contribution, identifying its
+source and any license or other restriction of which you are personally aware,
+and conspicuously marking it as "Submitted on behalf of a third party:
+`<name>`".
+
+**8. No obligations, no warranty.** You are not expected to provide support for
+your Contribution, and you may choose to do so or not. Except as stated in
+Section 6, and as far as the law allows, you provide your Contribution on an "AS
+IS" basis, without warranties or conditions of any kind, express or implied.
+
+**9. Oxy is not obliged to use your Contribution.** Oxy may accept, reject, or
+remove any Contribution at its discretion. This agreement does not create any
+obligation on Oxy to include your Contribution in any product, or to keep it
+there.
+
+**10. Notification.** You agree to notify Oxy if any fact or circumstance you
+have represented above becomes inaccurate.
+
+**11. Governing law.** This agreement is governed by the law of
+`<JURISDICTION>`, without regard to its conflict of law rules.
+
+---
+
+Signed by clicking to accept on a pull request, which records your GitHub
+username, the commit, and the date.
+
+Name: `<FULL NAME>`
+GitHub username: `<USERNAME>`
+Date: `<DATE>`
