@@ -7,6 +7,7 @@ We appreciate contributions from the community. Please review and follow the gui
 1. Review our [Engineering Standards](https://github.com/OxyHQ/engineering) for code quality expectations and conventions.
 2. Read our [Code of Conduct](./CODE_OF_CONDUCT.md).
 3. Browse [good first issues](https://github.com/search?q=org%3AOxyHQ+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22&type=issues) across the organisation, or the issue tracker of the repository you want to work on.
+4. See what we are working on right now on the [Oxy Roadmap](https://github.com/orgs/OxyHQ/projects/14).
 
 ## Code and Copy Reviews
 
