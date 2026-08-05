@@ -367,10 +367,13 @@ what draws the first outside pull requests.
    set it deliberately.
 3. Add a copyright line naming the owner to each existing `LICENSE`.
 4. Confirm the five git identities are all Nate.
-5. **Decide what legal entity owns the copyright.** Every document here has a
-   `<LEGAL ENTITY NAME>` placeholder. The MIT files say "OxyHQ" and "Oxy HQ"
-   inconsistently, neither obviously a registered entity. Only a real legal
-   person can grant a commercial license or take payment for one.
+5. **Name the copyright holder consistently.** The licensor is **The Oxy
+   Foundation, Inc.**, and every document here now says so. The existing MIT
+   files still say "OxyHQ" and "Oxy HQ" inconsistently, so they need updating
+   to match. Two things remain open before the commercial arm can invoice:
+   the jurisdiction of incorporation and the registration number, both still
+   placeholders in the Parameters table of each work. Only a real legal person
+   can grant a commercial license or take payment for one.
 
 **Phase 1, ownership.** Set up the CLA and CLA Assistant on the Breathe layer.
 Close the `alexlab84` question with one email.

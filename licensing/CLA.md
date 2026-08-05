@@ -87,7 +87,7 @@ attention, and attention is what produces the first outside pull requests.
 If you are contributing as part of your job, your employer may own your work. In
 that case have someone authorised to bind the company sign on its behalf, listing
 the accounts covered. The same text works; the signature line differs. Ask
-`<licensing@EXAMPLE>`.
+licensing@oxy.so.
 
 ---
 

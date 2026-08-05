@@ -131,7 +131,7 @@ in writing for your own records, for your board, or for a funder.
 
 ## How to request written confirmation
 
-Email `<licensing@EXAMPLE>` with:
+Email licensing@oxy.so with:
 
 1. The legal name of your organization and the country it is registered in.
 2. Your registration or charity number, or a link to your public register entry.
