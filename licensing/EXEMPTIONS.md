@@ -5,30 +5,49 @@
 > it before it is relied on.
 
 Oxy grants the [Commercial Terms](../LICENSE-COMMERCIAL.md) **at no charge** to
-mission aligned organizations.
+cooperatives, nonprofit organizations, educational institutions, public bodies,
+and worker owned businesses.
 
-## First, check whether you need this at all
+## Read this first: the exemption is from the fee, and from nothing else
 
-Most people do not.
+You are exempt from **paying**. You are not exempt from anything else in the
+license.
 
-The [Breathe License](../LICENSE-BREATHE.md) already lets **anyone** use, modify,
-and redistribute Oxy software for free, forever, for any purpose including
-running a business. You owe nothing for that, and this policy is irrelevant to
-you.
+In particular, an exempt organization must still:
 
-You need the Commercial Terms only if you want to be released from the source
-availability conditions in Section 3 of the license, that is, if you want to
-modify Oxy software and **not** publish your changes.
+- **Publish the corresponding source** of whatever it deploys, whether it ships
+  it or serves it over a network, under Sections 3.2 and 3.3 of the
+  [Breathe License](../LICENSE-BREATHE.md); and
+- **Give attribution**, crediting Oxy in one reachable place, under Section 3.1.
 
-This policy says that if you are a cooperative, a nonprofit, an educational
-institution, a public body, or a worker owned business, you get that release for
-free.
+Those two conditions apply to everyone without exception, including to Oxy's
+paying customers. There is no version of this license, at any price or for any
+organization, that removes them. If your plan depends on keeping your
+modifications private, this exemption does not help you and neither does paying.
+
+## Second: you may not need this at all
+
+The [Breathe License](../LICENSE-BREATHE.md) already lets **anyone** run, read,
+modify, fork, and share Oxy software for free, for any purpose that is not
+**commercial use**. You need the Commercial Terms only if your use is connected
+to revenue.
+
+A great many nonprofits and educational institutions are not making commercial
+use of anything. A university running Oxy software for teaching or research, a
+charity running it for its own programme work, a volunteer collective running a
+community server: none of that is commercial use, and Section 2.2 of the license
+covers it already. This policy is irrelevant to you.
+
+You need this policy if you are an exempt organization **and** your use is
+connected to revenue, for example a cooperative that charges its members for a
+service built on Oxy software, or a nonprofit with a paid product that funds its
+mission.
 
 ## Who qualifies
 
 The binding definition is **Exempt Organization** in Section 15 of the
-[Breathe License](../LICENSE-BREATHE.md). This page restates it in plain terms.
-Where the two differ, the license governs.
+[Breathe License](../LICENSE-BREATHE.md). This page restates it plainly. Where
+the two differ, the license governs.
 
 The test applies to your organization as a whole, not to one department, team,
 or project inside it.
@@ -38,15 +57,15 @@ or project inside it.
 You qualify if you are registered as a cooperative, a mutual, or an equivalent
 form under your local law. Registration is enough on its own.
 
-If you are not formally registered, you still qualify if your governing
-documents bind you to **all four** of:
+If you are not formally registered, you still qualify if your governing documents
+bind you to **all four** of:
 
 - membership is open and voluntary;
 - members control the organization democratically, and voting power is not
   allocated in proportion to capital contributed;
 - surplus goes back to members in proportion to their participation, or is
-  retained, or is applied to purposes the members approve, rather than being
-  paid to outside investors in proportion to capital; and
+  retained, or is applied to purposes the members approve, rather than being paid
+  to outside investors in proportion to capital; and
 - you are not controlled by an organization that would not itself qualify.
 
 ### Nonprofit organizations
@@ -101,9 +120,16 @@ profitable, well run cooperative qualifies.
 - **Using an exempt form as a conduit.** If the exempt entity's structure exists
   principally to route the economic benefit of Oxy software to people or
   companies that would not themselves qualify, it does not qualify. This is the
-  anti abuse rule and it is applied to substance, not to form.
+  anti abuse rule, and it is applied to substance, not to form.
 
-## How to request it
+## You do not have to wait
+
+**Section 5 of the license lets you begin commercial use immediately** in
+reliance on the exemption, without waiting for written confirmation from Oxy.
+Start building. The process below exists so you can have the position confirmed
+in writing for your own records, for your board, or for a funder.
+
+## How to request written confirmation
 
 Email `<licensing@EXAMPLE>` with:
 
@@ -111,42 +137,30 @@ Email `<licensing@EXAMPLE>` with:
 2. Your registration or charity number, or a link to your public register entry.
    If you are not formally registered, attach the governing document showing you
    meet the four cooperative criteria.
-3. Which Oxy software you want to use.
+3. Which Oxy software you are using.
 4. One or two sentences on what you are building.
 
 **Target response: ten working days.** Oxy replies with either a countersigned
 grant of the Commercial Terms at a zero fee, or a specific explanation of what
 is missing and what would fix it. If the answer is no, you may ask once for it
-to be looked at again by someone else.
+to be reviewed by someone else.
 
 Approval is recorded in writing and covers your organization and its wholly
 controlled subsidiaries that also qualify.
-
-## While you wait
-
-Use the software. The Breathe License already covers you and it costs nothing.
-The only thing the grant adds is release from publishing your modifications, and
-you can start building before that arrives.
 
 ## If you stop qualifying
 
 If your organization converts to a form that no longer qualifies, for example on
 being acquired, the zero fee grant ends at the end of its current term. You then
-either take the Commercial Terms at the ordinary fee, or fall back to the free
-Breathe License and start publishing your modifications. **You never lose the
-right to use the software.**
+either take the Commercial Terms at the ordinary fee, or stop commercial use and
+continue under the free license for permitted purposes. **You never lose the
+right to use the software non commercially.**
 
 Nothing you did while you qualified becomes a violation retroactively.
-
-## What still applies to you
-
-The zero fee grant is a full grant of the Commercial Terms, not a reduced one.
-Every obligation in that document still applies, in particular **Attribution**:
-credit Oxy in one reachable place in your product. It costs nothing and it is
-how other organizations like yours find out Oxy exists.
 
 ## Changes to this policy
 
 Oxy may update this policy. **A change never retroactively withdraws a grant
 already made.** If the criteria narrow, existing exempt organizations keep their
-grant through its current term and Oxy will say plainly what happens at renewal.
+grant through its current term, and Oxy will say plainly what happens at
+renewal.

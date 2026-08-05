@@ -16,21 +16,34 @@
       by the Open Source Initiative and is NOT approved by the Free Software
       Foundation. It does not appear on the SPDX license list. GitHub will
       display a repository using it as "Other" or "custom", and automated
-      license scanners will report it as unknown. Do not adopt it, and do not
-      let anyone else adopt it, believing it is open source.
+      license scanners will report it as unknown.
+
+      It is worth being precise about WHY it is not open source. It is NOT
+      because of the copyleft; the AGPL is copyleft and is OSI approved. It is
+      because Section 2 makes commercial use conditional on a paid license,
+      which is discrimination against a field of endeavour under clause 6 of
+      the Open Source Definition. Anyone who calls software under this license
+      "open source" is using the wrong words. See licensing/README.md.
 
     - NOT COMPATIBLE WITH THE GPL OR THE AGPL. Code under the GPL or the AGPL
       cannot be combined into a work licensed under these terms, and a work
       licensed under these terms cannot be combined into a GPL or AGPL work.
-      This is a hard constraint, not a preference. It is the main reason Oxy
-      publishes its SDK and client libraries under Apache-2.0 instead. See
-      licensing/README.md.
+      This is a hard constraint, not a preference. It is one reason Oxy
+      publishes its SDK and client libraries under Apache-2.0 instead. The
+      other reason is simpler: if integrating Oxy login cost money, nobody
+      would integrate it.
 
-    - COPYLEFT, INCLUDING OVER A NETWORK. If you modify this software and let
-      other people use it, including only over a network, you must publish
-      your modified source. The obligation is modelled on the AGPL-3.0, but
-      this is an original text and is not the AGPL. The Free Software
-      Foundation neither endorses nor is associated with it.
+    - COPYLEFT, INCLUDING OVER A NETWORK, FOR EVERYONE. If you deploy this
+      software or anything derived from it, you publish the corresponding
+      source. That applies to every user without exception, including paying
+      commercial licensees. It cannot be bought out of. The obligation is
+      modelled on the AGPL-3.0, but this is an original text and is not the
+      AGPL. The Free Software Foundation neither endorses it nor is
+      associated with it.
+
+    - ATTRIBUTION IS MANDATORY AND CANNOT BE WAIVED. It applies to every copy,
+      every derivative, and every network deployment, including those made by
+      paying commercial licensees. Paying does not buy anonymity.
 
   THIS DOCUMENT HAS NOT BEEN REVIEWED BY A LAWYER. It was drafted from
   established templates, which is not legal advice and is no substitute for
@@ -44,19 +57,30 @@ This preamble explains the intent of the license. It is not part of the terms
 and creates no rights or obligations.
 
 Oxy is named for oxygen, because oxygen is essential and shared. This license
-tries to work the same way. Anyone may use this software, for anything,
-including to run a business, and pay nothing for it, forever. In return they
-credit the authors and, if they change it and let others use their changed
-version, they publish those changes so that everyone keeps breathing the same
+tries to work the same way, and it asks for two things in return.
+
+The first is that the software stays open. It was published in the open, and it
+stays that way in every hand it passes through. Anyone may read it, run it,
+study it, change it, and pass it on, and anyone who deploys it or a changed
+version of it publishes the source of what they deployed. **That obligation is
+not for sale.** There is no version of this license under which someone takes
+this work private, and no fee that buys the right to. Everyone breathes the same
 air.
 
-What is not free is enclosing it. If you want to take this software, build it
-into a product you keep closed, and give nothing back, that is a commercial
-arrangement and there is a price on it. Free to breathe, paid to bottle.
+The second is that people who make money with it pay for it. Using it, learning
+from it, and building on it are free. Building a revenue generating business on
+top of somebody else's work, contributing nothing back to it, is not. That is
+the line, and buying a commercial license is the whole of what crosses it: it
+buys the right to use this software commercially. It does not buy secrecy, and
+it does not buy silence about where the software came from.
 
 Cooperatives, nonprofits, educational institutions, and public bodies pay
-nothing for that arrangement either. They are exempt by policy, and the policy
-is published.
+nothing. They publish their source and give credit like everyone else. They are
+exempt from the fee, and from nothing else.
+
+Free to breathe, paid to bottle. Breathing is using, studying, changing, and
+sharing in the open, and it is free. Bottling it to sell is the part that costs
+money.
 
 ## Parameters
 
@@ -77,34 +101,95 @@ Fill these in for each work. Terms in **bold** are defined in Section 15.
 
 To get any license under these terms, you must agree to them as both strict
 obligations and conditions on every license they grant you. If you do not agree
-to them, you have no license to the Software under this document.
-
-You may instead take the **Commercial Terms**, which are an alternative to this
-document and not an addition to it. See Section 4.
+to them, you have no license to the Software.
 
 ## 2. Copyright license
 
 The Licensor grants you a worldwide, royalty free, non exclusive copyright
 license to do everything with the Software that would otherwise infringe the
-Licensor's copyright in it, for any purpose, including any **Commercial Use**.
+Licensor's copyright in it, for any **Permitted Purpose**.
 
 That includes running it, studying it, copying it, modifying it, making
 **Modified Versions** and other works based on it, publicly performing and
 displaying it, **Conveying** it, and making it available to others through
-**Remote Interaction**.
+**Remote Interaction**, in each case for a Permitted Purpose.
 
 This license is granted for as long as you comply with Section 3. It does not
 expire, the Licensor cannot revoke it while you comply, and no fee is payable
 for it.
 
+### 2.1 Permitted Purpose
+
+A **Permitted Purpose** is any purpose that is not **Commercial Use**.
+
+**Commercial Use is not licensed under this document.** To use the Software
+commercially you must take the **Commercial Terms** identified in the Parameters
+table. See Section 4.
+
+### 2.2 Permitted Purposes specifically include
+
+For the avoidance of doubt, each of the following is a Permitted Purpose:
+
+- **(a)** using the Software personally, on your own behalf, where your use is
+  not connected to **Revenue**;
+- **(b)** private study, research, and experiment, whether or not you publish
+  the results;
+- **(c)** teaching, and use by a student or a member of faculty in that
+  capacity;
+- **(d)** academic and non commercial research, including research funded by
+  grants that are not consideration for goods or services;
+- **(e)** evaluating the Software, for up to ninety days, to decide whether to
+  take the Commercial Terms, including evaluation inside an organization that
+  would otherwise need them;
+- **(f)** developing, testing, reporting bugs in, and contributing to the
+  Software itself, including maintaining a fork of it;
+- **(g)** Conveying the Software or a Modified Version to others at no charge,
+  where you derive no Revenue from doing so; and
+- **(h)** use by a hobbyist, a volunteer project, or a community group that
+  generates no Revenue.
+
+### 2.3 Commercial Use specifically includes
+
+Each of the following is Commercial Use and requires the Commercial Terms:
+
+- **(a)** incorporating the Software, in whole or in part, into a product or
+  service **Your Organization** offers for a fee, whether the fee is for a
+  license, a subscription, hosting, support, consulting, or anything else;
+- **(b)** operating the Software, or a Modified Version, as a hosted or managed
+  service that others pay to access;
+- **(c)** using the Software internally to produce, deliver, operate, support,
+  or administer goods or services Your Organization offers for a fee, including
+  internal tooling, back office systems, and infrastructure. **Internal use is
+  not automatically exempt.** If Your Organization earns Revenue and the
+  Software is used in the course of earning it, that is Commercial Use;
+- **(d)** using the Software in a product or service offered at no charge from
+  which Your Organization derives Revenue by other means, including advertising,
+  data licensing, and referral fees; and
+- **(e)** Conveying the Software as part of a paid distribution, appliance,
+  device, or bundle.
+
+The test is the connection between your use and Revenue. It does not matter
+whether the Software itself is the thing being sold.
+
+### 2.4 The Commercial Terms do not change Section 3
+
+Taking the Commercial Terms adds the right to use the Software commercially. It
+changes nothing else. Every condition in Section 3 continues to apply to you in
+full, including publishing source and giving Attribution. See Section 4.
+
 ## 3. Conditions
 
-Your licenses under Section 2 are conditioned on all of the following.
+**These conditions apply to everyone using the Software, without exception, and
+whether or not you hold the Commercial Terms.** They are not obligations that
+can be bought out of, and the Licensor does not offer, and will not offer, any
+license that releases anyone from them.
 
 ### 3.1 Attribution
 
-Wherever you Convey the Software or a Modified Version, or make either
-available through Remote Interaction, you must give **Attribution**.
+**Attribution is mandatory and cannot be waived, by agreement or by payment.**
+
+Wherever you Convey the Software or a Modified Version, or make either available
+through Remote Interaction, you must give **Attribution**.
 
 Attribution means preserving the copyright notice and a copy of these terms in
 the source you Convey, and presenting the following line in at least one place
@@ -122,6 +207,11 @@ page, or anywhere else your users have not chosen to look. You are not required
 to name the Licensor in advertising. You may not remove or obscure the
 Licensor's existing copyright and license notices in the source.
 
+**No commercial license, order form, purchase agreement, or other arrangement
+removes this requirement.** A holder of the Commercial Terms owes Attribution on
+exactly the same terms as everybody else. Any provision of any other document
+purporting to waive this Section is void.
+
 ### 3.2 Source availability on conveyance
 
 If you Convey the Software or a Modified Version, in source or object form, you
@@ -132,15 +222,15 @@ three years, telling recipients where to get it.
 
 ### 3.3 Source availability on network use
 
-If you make a Modified Version available to anyone through Remote Interaction,
-you must offer every user who so interacts with it a prominent, no charge way
-to obtain the Corresponding Source of the version they are interacting with,
-through a network server or another readily accessible means.
+If you make the Software or a Modified Version available to anyone through
+Remote Interaction, you must offer every user who so interacts with it a
+prominent, no charge way to obtain the Corresponding Source of the version they
+are interacting with, through a network server or another readily accessible
+means.
 
-This condition applies whether or not you also Convey the Modified Version, and
-whether or not you charge for access. It is the network condition, and it is
-the reason a company that wants to keep its changes private needs the
-Commercial Terms.
+This condition applies whether or not you also Convey the work, whether or not
+you charge for access, and **whether or not you hold the Commercial Terms**.
+There is no way to pay to avoid it.
 
 **This condition does not reach your separate work.** Section 3.5 says what
 counts as a Modified Version and what does not.
@@ -149,8 +239,8 @@ counts as a Modified Version and what does not.
 
 Anyone who gets any part of the Software or a Modified Version from you must
 also get a copy of these terms, or the URL for them, together with any plain
-text lines beginning with `Required Notice:` that the Licensor supplied with
-the Software.
+text lines beginning with `Required Notice:` that the Licensor supplied with the
+Software.
 
 If you Convey a Modified Version, you must carry prominent notices stating that
 you changed it and the date you changed it. You may add your own copyright
@@ -161,7 +251,8 @@ Software.
 
 Using the Software only through its **Documented Public Interfaces** does not by
 itself make your program a Modified Version, and does not put your program under
-these terms. Your own program remains yours, under whatever license you choose.
+these terms. Your own program remains yours, under whatever license you choose,
+and you are not required to publish its source.
 
 For the avoidance of doubt, none of the following makes your program a Modified
 Version:
@@ -185,46 +276,64 @@ Your program **is** a Modified Version if you alter the Software's source, copy
 source code out of the Software into your program, or incorporate the Software
 into your program other than through its Documented Public Interfaces.
 
+Section 3.5 concerns only what must be published. It does not affect Section
+2.1: running the Software commercially requires the Commercial Terms even where
+your own separate program stays yours.
+
 ### 3.6 No further restrictions
 
-You may not impose any term on a recipient of the Software or a Modified
-Version that restricts the rights these terms grant them, and you may not
-condition their exercise of those rights on the payment of a royalty to you for
-the Software itself. You may charge for your own work, for distribution, for
-support, and for services.
+You may not impose any term on a recipient of the Software or a Modified Version
+that restricts the rights these terms grant them, and you may not condition
+their exercise of those rights on the payment of a royalty to you for the
+Software itself. You may charge for your own work, for distribution, for
+support, and for services, subject to Section 2.1.
 
 ## 4. The Commercial Terms
 
-If you do not want the conditions in Section 3, in particular if you want to
-combine the Software into a product you keep closed, or Convey it without
-making Corresponding Source available, or run a Modified Version as a service
-without publishing your changes, you may instead take the **Commercial Terms**
-identified in the Parameters table.
+If your use is Commercial Use, you need the **Commercial Terms** identified in
+the Parameters table. They are a separate license granted by the Licensor as
+copyright holder, and they are the only way to use the Software commercially.
 
-The Commercial Terms are a separate license granted by the Licensor as
-copyright holder. They are offered **instead of** this document, not on top of
-it. They add nothing to these terms, they restrict nothing in these terms, and
-they have no effect on anyone using the Software under these terms.
+**What they give you.** The right to use the Software for Commercial Use. That
+is all, and it is deliberate.
 
-The Commercial Terms are proprietary. They are not open source.
+**What they do not give you, and what no Oxy license will ever give anyone:**
 
-You do not need the Commercial Terms merely because you make money using the
-Software. Commercial Use is licensed free of charge under Section 2, provided
-you meet the conditions in Section 3. The Commercial Terms exist for those who
-will not, or cannot, meet those conditions.
+- **They do not release you from publishing source.** Sections 3.2 and 3.3 apply
+  to commercial licensees in full. If you deploy the Software or a Modified
+  Version, you publish the Corresponding Source, exactly as a non paying user
+  does.
+- **They do not release you from Attribution.** Section 3.1 applies to
+  commercial licensees in full.
+- **They do not permit you to make the Software, or your changes to it,
+  proprietary.** There is no arrangement, at any price, under which the Licensor
+  will agree otherwise. This is a design choice, not an opening negotiating
+  position.
+
+The Licensor grants the Commercial Terms at no charge to **Exempt
+Organizations**. See Section 5.
 
 ## 5. Exempt Organizations
 
 The Licensor grants the Commercial Terms at no charge to any **Exempt
-Organization**, on the terms of the published **Exemption Policy**. An Exempt
-Organization that holds the Commercial Terms pays nothing and is not subject to
-the conditions in Section 3 other than Attribution.
+Organization**, on the terms of the published **Exemption Policy**.
 
-You do not need to be an Exempt Organization to use the Software. Everyone gets
-Section 2 for free.
+**The exemption is from the fee, and from nothing else.** An Exempt Organization
+using the Software commercially is bound by every condition in Section 3 in
+full, including publishing Corresponding Source and giving Attribution, exactly
+as a paying commercial licensee is.
 
-A change to the Exemption Policy does not retroactively withdraw a grant
-already made.
+An Exempt Organization may begin Commercial Use immediately in reliance on this
+Section, without waiting for written confirmation from the Licensor. The
+Exemption Policy explains how to obtain written confirmation if you want it for
+your own records.
+
+Many Exempt Organizations will find they do not need the Commercial Terms at
+all, because their use is not Commercial Use in the first place. Section 2.2
+already covers them.
+
+A change to the Exemption Policy does not retroactively withdraw a grant already
+made.
 
 ## 6. Third party components
 
@@ -243,32 +352,35 @@ remain governed by their own licenses. Nothing in these terms:
 - **(d)** creates any obligation for you in respect of a third party component
   beyond what that component's own license requires.
 
-Where a third party component's license conflicts with these terms in respect
-of that component, that component's license governs it.
+Where a third party component's license conflicts with these terms in respect of
+that component, that component's license governs it. In particular, a component
+licensed permissively remains usable by you commercially under its own terms,
+whether or not you hold the Commercial Terms for the Software.
 
 **Where to look.** A work licensed under these terms that carries third party
 components lists them in a `NOTICE` or `THIRD-PARTY-LICENSES` file at its root,
 naming each component, its license, and where the full license text can be
-found. Read it. The absence of such a file is not a representation that the
-work carries no third party components; dependency manifests and lockfiles are
-also authoritative.
+found. Read it. The absence of such a file is not a representation that the work
+carries no third party components; dependency manifests and lockfiles are also
+authoritative.
 
-**What this clause does not do.** It resolves the case where the Software
-merely *contains* separately licensed files alongside the Licensor's own code.
-It does **not** rescue a work that is a **derivative** of copyleft licensed
-code. If code under the GPL, the AGPL, or another copyleft license is combined
-into the Software such that the combination is a derivative or covered work of
-that code, then that copyleft license governs the whole combination, and no
-third party components clause can carve the Licensor's own contributions back
-out of it. In that case the Licensor cannot license the combination under these
-terms at all, because the Licensor does not hold the right to do so.
+**What this clause does not do.** It resolves the case where the Software merely
+*contains* separately licensed files alongside the Licensor's own code. It does
+**not** rescue a work that is a **derivative** of copyleft licensed code. If code
+under the GPL, the AGPL, or another copyleft license is combined into the
+Software such that the combination is a derivative or covered work of that code,
+then that copyleft license governs the whole combination, and no third party
+components clause can carve the Licensor's own contributions back out of it. In
+that case the Licensor cannot license the combination under these terms at all,
+because the Licensor does not hold the right to do so.
 
 ## 7. Patent license
 
-The Licensor grants you a patent license for the Software covering patent
-claims the Licensor can license, or becomes able to license, that you would
-infringe by using the Software as these terms permit. This patent license runs
-for as long as your copyright license under Section 2 does.
+The Licensor grants you a patent license for the Software covering patent claims
+the Licensor can license, or becomes able to license, that you would infringe by
+using the Software as these terms permit. This patent license runs for as long
+as your copyright license under Section 2 does, and extends to Commercial Use
+only while you hold the Commercial Terms.
 
 No other patent rights are granted, by implication, estoppel, or otherwise.
 
@@ -276,8 +388,8 @@ No other patent rights are granted, by implication, estoppel, or otherwise.
 
 If you make any written claim that the Software infringes or contributes to the
 infringement of any patent, your patent license under Section 7 ends
-immediately. If **Your Organization** makes such a claim, your patent license
-ends immediately for work done on behalf of Your Organization.
+immediately. If Your Organization makes such a claim, your patent license ends
+immediately for work done on behalf of Your Organization.
 
 ## 9. Trademarks
 
@@ -286,23 +398,24 @@ service marks, or product names, including "Oxy" and "Breathe", except as
 Section 3.1 requires in order to state the origin of the Software accurately,
 and except for nominative fair use permitted by law.
 
-You may say your product is built on the Software. You may not say or imply
-that it is published, endorsed, certified, sponsored, or supported by the
-Licensor unless it is.
+You may say your product is built on the Software. You may not say or imply that
+it is published, endorsed, certified, sponsored, or supported by the Licensor
+unless it is.
 
 ## 10. Termination and cure
 
 If you violate these terms, your licenses end. But the first time the Licensor
-notifies you in writing of a violation, your licenses are reinstated if you
-come into full compliance, and take practical steps to correct the violation,
-within 32 days of receiving that notice. After a first cured violation, further
+notifies you in writing of a violation, your licenses are reinstated if you come
+into full compliance, and take practical steps to correct the violation, within
+32 days of receiving that notice. After a first cured violation, further
 violations end your licenses immediately on notice.
 
 If your licenses end, the rights of anyone who received the Software or a
 Modified Version from you are not affected, as long as they comply themselves.
 
-Ending your licenses under these terms does not end any licenses you separately
-hold under the Commercial Terms, and vice versa.
+If your Commercial Terms end, for any reason including non payment, your license
+under Section 2 for Permitted Purposes continues, provided you comply with
+Section 3. **You must stop Commercial Use.**
 
 ## 11. Severability and partial exclusion
 
@@ -317,25 +430,25 @@ court of competent jurisdiction, that provision is severed and the remaining
 provisions continue in full force, with the severed provision replaced by a
 valid provision that comes as close as the law permits to the original intent.
 
-If a condition in Section 3 cannot be enforced against you as a matter of law
-in your jurisdiction, your licenses under Section 2 end rather than continuing
+If a condition in Section 3 cannot be enforced against you as a matter of law in
+your jurisdiction, your licenses under Section 2 end rather than continuing
 without that condition.
 
 ## 12. No warranty
 
 ***As far as the law allows, the Software comes as is, without warranty or
 condition of any kind, express or implied, including any warranty of
-merchantability, fitness for a particular purpose, title, or non
-infringement. The entire risk as to the quality and performance of the Software
-is with you.***
+merchantability, fitness for a particular purpose, title, or non infringement.
+The entire risk as to the quality and performance of the Software is with
+you.***
 
 ## 13. Limitation of liability
 
 ***As far as the law allows, the Licensor will not be liable to you for any
 damages arising out of these terms or out of the use or nature of the Software,
 under any kind of legal claim, including direct, indirect, special, incidental,
-and consequential damages, and including lost profits and lost data, even if
-the Licensor has been advised of the possibility of them.***
+and consequential damages, and including lost profits and lost data, even if the
+Licensor has been advised of the possibility of them.***
 
 Nothing in these terms excludes or limits liability that cannot lawfully be
 excluded or limited, including liability for death or personal injury caused by
@@ -353,12 +466,12 @@ competent jurisdiction to protect its intellectual property.
 
 **Licensor** is the entity named in the Parameters table, being the entity that
 holds the copyright in the Licensor authored parts of the Software or that has
-been granted the rights necessary to license them under both these terms and
-the Commercial Terms.
+been granted the rights necessary to license them under both these terms and the
+Commercial Terms.
 
-**The Software** is the software and other material identified in the
-Parameters table that the Licensor makes available under these terms, including
-each version the Licensor so makes available.
+**The Software** is the software and other material identified in the Parameters
+table that the Licensor makes available under these terms, including each
+version the Licensor so makes available.
 
 **You** means the individual or legal entity exercising rights under these
 terms.
@@ -367,9 +480,24 @@ terms.
 association, foundation, or other organization you work for or on behalf of,
 together with every organization that controls it, is controlled by it, or is
 under common control with it. **Control** means ownership of more than fifty
-percent of the voting interests or of substantially all the assets of an
-entity, or the power to direct its management and policies by vote, contract,
-or otherwise, whether direct or indirect.
+percent of the voting interests or of substantially all the assets of an entity,
+or the power to direct its management and policies by vote, contract, or
+otherwise, whether direct or indirect.
+
+**Permitted Purpose** has the meaning given in Section 2.1.
+
+**Commercial Use** means any use of the Software by or for Your Organization
+that is connected to **Revenue**, whether or not the Software is itself sold.
+Section 2.3 enumerates cases that are Commercial Use. Section 2.2 enumerates
+cases that are not.
+
+**Revenue** means all consideration of any kind received by Your Organization
+from third parties, in cash or in kind, recognized under the accounting
+standards Your Organization ordinarily applies, before deduction of costs. It
+includes subscription fees, license fees, transaction fees, advertising revenue,
+and payments for support or professional services. It excludes grants and
+donations that are not consideration for goods or services, capital raised by
+issuing shares or debt, and proceeds from the sale of capital assets.
 
 **Convey** means any act of propagating the Software that enables another party
 to make or receive copies, including distributing it in source or object form,
@@ -395,36 +523,13 @@ include your credentials, keys, secrets, personal data, or user data.
 **Documented Public Interfaces** means the application programming interfaces,
 network protocols, message formats, command line interfaces, plugin interfaces,
 and extension points that the Licensor documents for use by others, in the
-Software's published documentation, its type definitions, or its public
-package exports. An interface the Licensor marks internal, private,
-unstable, or experimental is not a Documented Public Interface.
+Software's published documentation, its type definitions, or its public package
+exports. An interface the Licensor marks internal, private, unstable, or
+experimental is not a Documented Public Interface.
 
 **Attribution** has the meaning given in Section 3.1.
 
 **Commercial Terms** means the document identified in the Parameters table.
-
-**Commercial Use** means any use of the Software by or for Your Organization
-that is connected to **Revenue**, whether or not the Software is itself sold.
-It includes: incorporating the Software into a product or service offered for a
-fee; operating the Software or a Modified Version as a hosted or managed
-service others pay to access; using the Software internally to produce,
-deliver, operate, support, or administer goods or services offered for a fee;
-using the Software in a product offered at no charge from which Your
-Organization derives Revenue by other means, such as advertising, data
-licensing, or referral fees; and Conveying the Software as part of a paid
-distribution, appliance, device, or bundle.
-
-**Commercial Use is licensed free of charge under Section 2.** The definition
-matters for the Commercial Terms and the Exemption Policy, not for whether you
-owe anything under this document. Under this document you owe nothing.
-
-**Revenue** means all consideration of any kind received by Your Organization
-from third parties, in cash or in kind, recognized under the accounting
-standards Your Organization ordinarily applies, before deduction of costs. It
-includes subscription fees, license fees, transaction fees, advertising
-revenue, and payments for support or professional services. It excludes grants
-and donations that are not consideration for goods or services, capital raised
-by issuing shares or debt, and proceeds from the sale of capital assets.
 
 **Exempt Organization** means Your Organization, where Your Organization is any
 of the following. The test applies to Your Organization as a whole, not to a
@@ -448,8 +553,8 @@ department, subsidiary, or project within it.
   or public purpose entity. Entities recognized under section 501(c)(3) of the
   United States Internal Revenue Code, entities on the register of the Charity
   Commission for England and Wales or its equivalent elsewhere, and entities
-  constituted as an `asociación`, `fundación`, `association loi 1901`,
-  `Verein`, `stichting`, or equivalent, qualify where they meet this test.
+  constituted as an `asociación`, `fundación`, `association loi 1901`, `Verein`,
+  `stichting`, or equivalent, qualify where they meet this test.
 
 - **(c) An educational institution.** A school, college, university, or other
   institution whose primary purpose is education or academic research, together
@@ -466,8 +571,8 @@ department, subsidiary, or project within it.
 
 An entity does not stop being an Exempt Organization merely because it charges
 for goods or services, earns Revenue, pays market salaries, holds reserves, or
-receives grants or public funding. An entity is not an Exempt Organization if
-it is controlled by an entity that is not one, or if its exempt form is used
+receives grants or public funding. An entity is not an Exempt Organization if it
+is controlled by an entity that is not one, or if its exempt form is used
 principally to hold or route the economic benefit of the Software to persons or
 entities that would not themselves qualify.
 
@@ -479,6 +584,6 @@ published by the Licensor from time to time.
 ## 16. How to apply these terms
 
 See [`licensing/README.md`](licensing/README.md) for the full procedure: which
-Oxy works use these terms and which use Apache-2.0, the file layout, the
-license identifier, the `package.json` `license` field, the source header, and
-the `NOTICE` file.
+Oxy works use these terms and which use Apache-2.0, the file layout, the license
+identifier, the `package.json` `license` field, the source header, and the
+`NOTICE` file.

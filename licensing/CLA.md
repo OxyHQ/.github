@@ -20,10 +20,10 @@ ownership of their own work**.
 
 A Developer Certificate of Origin certifies that you had the right to submit
 your contribution under the project's existing license. It does **not** give the
-project the right to relicense your contribution under different, proprietary
-terms. For a single licensed open source project a DCO is the right, lighter
-tool. For a dual licensed project it does not do the necessary job. Oxy needs a
-CLA.
+project the right to license your contribution to someone else on separate,
+paid terms. For a single licensed open source project a DCO is the right,
+lighter tool. For a dual licensed project it does not do the necessary job. Oxy
+needs a CLA.
 
 ## What you are and are not agreeing to
 
@@ -32,15 +32,23 @@ assignment. You may use, publish, sell, or relicense your own work anywhere else
 without asking Oxy.
 
 **Oxy gets a broad license, including the right to sublicense.** That is the
-part that lets Oxy keep offering the Commercial Terms. It also means Oxy can
-offer your contribution under a proprietary license to a paying customer.
+part that lets Oxy keep offering the Commercial Terms. In practice it means Oxy
+can charge a company for the right to use your contribution commercially, and
+keep the money.
 
-**Be clear eyed about that last point.** Some people will not sign this, on the
-principled ground that a company should not be able to sell their donated work
-under terms they themselves are not offered. That is a reasonable position and
-Oxy will not argue with anyone who holds it. If you would rather contribute to a
-project without a CLA, Oxy's SDK and UI layer is Apache-2.0 and takes
-contributions under a DCO only. See [`README.md`](README.md).
+**What Oxy cannot do with your contribution, and this is worth knowing before
+you decide.** Oxy cannot make it proprietary or closed. Under the Breathe
+License, source publication and attribution apply to everyone, including to
+paying commercial licensees, and Oxy has committed in the license text itself to
+never offering any license that removes them. So your contribution stays public,
+in every hand it passes through, whatever Oxy charges for it.
+
+**Be clear eyed about the part that remains.** Some people will still not sign
+this, on the principled ground that a company should not charge for donated work
+at all. That is a reasonable position and Oxy will not argue with anyone who
+holds it. If you would rather contribute to a project without a CLA, Oxy's SDK
+and UI layer is Apache-2.0 and takes contributions under a DCO only. See
+[`README.md`](README.md).
 
 ## Which repositories require it
 
@@ -108,12 +116,20 @@ free, irrevocable copyright license to reproduce, prepare derivative works of,
 publicly display, publicly perform, sublicense, and distribute your Contribution
 and such derivative works.
 
-**4. Right to sublicense under any terms.** You expressly agree that the license
-in Section 3 includes the right for Oxy to sublicense your Contribution, and
-works derived from it, under any license terms Oxy chooses, including
-proprietary and commercial terms, and to charge a fee for doing so. **This is
-the provision that lets Oxy offer its commercial license, and it is the reason
-this agreement exists.**
+**4. Right to sublicense on commercial terms.** You expressly agree that the
+license in Section 3 includes the right for Oxy to sublicense your Contribution,
+and works derived from it, under separate commercial terms, and to charge a fee
+for doing so and retain the proceeds. **This is the provision that lets Oxy
+offer its commercial license, and it is the reason this agreement exists.**
+
+**4.1 Oxy's commitment in return.** Oxy will not distribute your Contribution,
+or any work derived from it, under terms that permit the recipient to withhold
+its corresponding source from users, or that waive attribution to the
+contributors of the work. This reflects Sections 3.1, 3.2, 3.3, and 4 of the
+Breathe License, under which source publication and attribution bind every user
+including paying commercial licensees. Oxy may change the license of the project
+for future versions, and this Section 4.1 continues to apply to your
+Contribution regardless.
 
 **5. Patent license.** You grant Oxy and to recipients of software distributed by
 Oxy a perpetual, worldwide, non exclusive, no charge, royalty free, irrevocable
