@@ -56,7 +56,7 @@ Start at [**oxy**](https://github.com/OxyHQ/oxy), the platform the rest stands o
 |---|---|
 | [oxy](https://github.com/OxyHQ/oxy) | Identity, protocol, API, SDK, and the identity apps |
 | [Bloom](https://github.com/OxyHQ/Bloom) | Cross-platform UI library every app is built with |
-| [OxyPay](https://github.com/OxyHQ/OxyPay) | Payments platform · [SDK](https://github.com/OxyHQ/OxyPaySDK) |
+| [OxyPay](https://github.com/OxyHQ/OxyPay) | Payments platform · [SDK](https://github.com/OxyHQ/OxyPay/tree/main/packages/sdk) |
 | [examples](https://github.com/OxyHQ/examples) | Runnable starters: Next.js, Vite, Expo |
 
 **People and speech**
@@ -88,7 +88,7 @@ Start at [**oxy**](https://github.com/OxyHQ/oxy), the platform the rest stands o
 | [Alia](https://github.com/OxyHQ/Alia) | AI assistant platform |
 | [OxyOS](https://github.com/OxyHQ/OxyOS) | Desktop operating system |
 | [Astro](https://github.com/OxyHQ/Astro) | Browser |
-| [Codea Studio](https://github.com/OxyHQ/CodeaStudioCode) | AI code editor |
+| [Codea](https://github.com/OxyHQ/Alia/tree/main/packages/alia-codea) | AI code editor, built inside Alia |
 
 </td>
 </tr>
