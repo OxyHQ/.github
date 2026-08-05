@@ -2,15 +2,9 @@
 
 ## Supported Versions
 
-We provide security updates for the latest release of each Oxy product. Older versions may not receive patches.
+Every repository in the [OxyHQ](https://github.com/OxyHQ) organisation is in scope, and every published `@oxyhq/*` package with it. We provide security updates for the latest release of each; older versions may not receive patches.
 
-| Product | Supported |
-| --- | --- |
-| Oxy Platform (@oxyhq/*) | Latest release |
-| Mention | Latest release |
-| Allo | Latest release |
-| OxyOS | Latest release |
-| Bloom | Latest release |
+Archived repositories are out of scope. They are marked as archived on their repository page.
 
 ## Reporting a Vulnerability
 
@@ -18,7 +12,12 @@ If you discover a security vulnerability in any Oxy product, please report it re
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, email us at **security@oxy.so** with:
+Use either channel:
+
+- **Report a vulnerability** on the Security tab of the affected repository. Private vulnerability reporting is enabled on every public repository, and this is the channel we prefer, since the report stays attached to the code.
+- Email **security@oxy.so**.
+
+Either way, include:
 
 - A description of the vulnerability
 - Steps to reproduce

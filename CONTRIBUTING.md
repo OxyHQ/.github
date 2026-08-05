@@ -6,7 +6,8 @@ We appreciate contributions from the community. Please review and follow the gui
 
 1. Review our [Engineering Standards](https://github.com/OxyHQ/engineering) for code quality expectations and conventions.
 2. Read our [Code of Conduct](./CODE_OF_CONDUCT.md).
-3. Check the [Project Board](https://github.com/orgs/OxyHQ/projects/14) for open issues and priorities.
+3. Browse [good first issues](https://github.com/search?q=org%3AOxyHQ+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22&type=issues) across the organisation, or the issue tracker of the repository you want to work on.
+4. See what we are working on right now on the [Oxy Roadmap](https://github.com/orgs/OxyHQ/projects/14).
 
 ## Code and Copy Reviews
 
@@ -14,7 +15,7 @@ All submissions, including submissions by project members, require review. We us
 
 ## Report an Issue
 
-Report all issues through GitHub Issues using the [Report a Bug](https://github.com/OxyHQ/.github/issues/new?template=1.Bug_report.md) template.
+Report all issues through GitHub Issues using the [Report a Bug](https://github.com/OxyHQ/.github/issues/new?template=bug_report.yml) template.
 
 To help resolve your issue as quickly as possible, read the template and provide all the requested information.
 
@@ -22,7 +23,7 @@ To help resolve your issue as quickly as possible, read the template and provide
 
 We welcome all feature requests, whether it's to add new functionality to an existing extension or to offer an idea for a brand new extension.
 
-File your feature request through GitHub Issues using the [Feature Request template](https://github.com/OxyHQ/.github/issues/new?template=2.Feature_request.md).
+File your feature request through GitHub Issues using the [Feature Request template](https://github.com/OxyHQ/.github/issues/new?template=feature_request.yml).
 
 ## Create a Pull Request
 
@@ -31,7 +32,7 @@ When making pull requests to the repository, follow these guidelines:
 - Before creating a pull request, file a GitHub Issue so that maintainers and the community can discuss the problem and potential solutions before you spend time on an implementation.
 - In your PR's description, link to any related issues or pull requests to give reviewers the full context of your change.
 - Follow the [Engineering Standards](https://github.com/OxyHQ/engineering) for code quality, naming conventions, and testing.
-- Keep PRs focused — one logical change per PR.
+- Keep PRs focused: one logical change per PR.
 - Ensure your changes do not introduce security vulnerabilities.
 
 ### Features
@@ -40,15 +41,16 @@ Before creating pull requests for new features, first file a GitHub Issue descri
 
 ## Developer Setup
 
-To set up the shared engineering standards for Claude Code:
+Every repository carries an `AGENTS.md` holding the standards it inherits, plus a `CLAUDE.md` whose only line imports it. Both are read directly by Claude Code, Codex, Cursor and Copilot, so there is nothing to install.
+
+To adopt them in a new repository:
 
 ```bash
-git clone https://github.com/OxyHQ/engineering.git
-cd engineering
-./install.sh
+curl -O https://raw.githubusercontent.com/OxyHQ/engineering/main/AGENTS.md
+curl -O https://raw.githubusercontent.com/OxyHQ/engineering/main/CLAUDE.md
 ```
 
-See the [engineering repo](https://github.com/OxyHQ/engineering) for details.
+Commit both at the repository root and add your project specific rules below the standards. See the [engineering repo](https://github.com/OxyHQ/engineering) for how the layering works.
 
 ## License
 
