@@ -40,9 +40,9 @@
 
 | Parameter | Value |
 | --- | --- |
-| Licensor | The Oxy Collective Inc (`<JURISDICTION>`, `<REGISTRATION NUMBER>`) |
+| Licensor | The Oxy Foundation, Inc. (`<JURISDICTION>`, `<REGISTRATION NUMBER>`) |
 | Licensed Work | `<REPOSITORY OR PACKAGE NAME>`, version `<VERSION OR RANGE>` |
-| Copyright notice | Copyright (c) `<YEARS>` The Oxy Collective Inc |
+| Copyright notice | Copyright (c) `<YEARS>` The Oxy Foundation, Inc. |
 | Breathe Terms | <https://github.com/OxyHQ/.github/blob/main/LICENSE-BREATHE.md> |
 | Fee Schedule | <https://oxy.so/licensing/fees> |
 | Exemption Policy | <https://github.com/OxyHQ/.github/blob/main/licensing/EXEMPTIONS.md> |
@@ -160,7 +160,7 @@ from you also gets a copy of the Breathe Terms, or the URL for them, as well as
 copies of any plain text lines beginning with `Required Notice:` that the
 Licensor provided with the Licensed Work. For example:
 
-> Required Notice: Copyright (c) `<YEARS>` The Oxy Collective Inc (https://oxy.so)
+> Required Notice: Copyright (c) `<YEARS>` The Oxy Foundation, Inc. (https://oxy.so)
 
 The Attribution line itself, and where it must appear, are specified in Section
 3.1 of the Breathe Terms. One reachable location is enough, and once per product
