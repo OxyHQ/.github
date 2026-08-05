@@ -368,12 +368,27 @@ what draws the first outside pull requests.
 3. Add a copyright line naming the owner to each existing `LICENSE`.
 4. Confirm the five git identities are all Nate.
 5. **Name the copyright holder consistently.** The licensor is **The Oxy
-   Foundation, Inc.**, and every document here now says so. The existing MIT
-   files still say "OxyHQ" and "Oxy HQ" inconsistently, so they need updating
-   to match. Two things remain open before the commercial arm can invoice:
-   the jurisdiction of incorporation and the registration number, both still
+   Collective Inc**, the entity registered today, and every document here says
+   so. The existing MIT files say "OxyHQ" and "Oxy HQ" inconsistently, and
+   several READMEs across the org credit a "The Oxy Foundation, Inc." that has
+   never existed. All of them need correcting to the registered name.
+
+   Two things remain open before the commercial arm can invoice: the
+   jurisdiction of incorporation and the registration number, both still
    placeholders in the Parameters table of each work. Only a real legal person
    can grant a commercial license or take payment for one.
+
+   **A different entity is planned.** When it is registered, the copyright does
+   not move to it by itself. It must be assigned in writing from The Oxy
+   Collective Inc to the new entity, and until that assignment exists the new
+   entity cannot grant a license or invoice for one. Do the assignment at the
+   same time as the registration, not afterwards.
+
+   The CLA carries the same problem in reverse, since it names the entity
+   contributions are assigned to. If people sign it naming The Oxy Collective
+   Inc and the entity later changes, either the assignment agreement carries
+   those rights across on its own terms or every signatory signs again. Settle
+   the destination entity before the CLA goes live.
 
 **Phase 1, ownership.** Set up the CLA and CLA Assistant on the Breathe layer.
 Close the `alexlab84` question with one email.

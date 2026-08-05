@@ -260,7 +260,7 @@ state today; see [`MIGRATION.md`](MIGRATION.md).
 ### Source file headers
 
 ```ts
-// Copyright (c) <YEARS> The Oxy Foundation, Inc.
+// Copyright (c) <YEARS> The Oxy Collective Inc
 // SPDX-License-Identifier: LicenseRef-Breathe-1.0
 // Licensed under the Breathe License 1.0. Commercial use requires a paid
 // license. Source publication and attribution are required of everyone.
@@ -268,7 +268,7 @@ state today; see [`MIGRATION.md`](MIGRATION.md).
 ```
 
 ```ts
-// Copyright (c) <YEARS> The Oxy Foundation, Inc.
+// Copyright (c) <YEARS> The Oxy Collective Inc
 // SPDX-License-Identifier: Apache-2.0
 ```
 
