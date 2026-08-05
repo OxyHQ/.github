@@ -1,0 +1,137 @@
+=============================================================================
+ NOTICE
+ <REPOSITORY OR PACKAGE NAME>
+ Copyright (c) <YEARS> <LEGAL ENTITY NAME>
+=============================================================================
+
+This product is licensed under the Breathe License 1.0. See the LICENSE file.
+Commercial terms are available; see LICENSE-COMMERCIAL.md.
+
+  [For an Apache-2.0 repository, replace the two lines above with:
+   This product is licensed under the Apache License, Version 2.0.
+   See the LICENSE file.
+   Keep this NOTICE file to attribution only. Under Apache-2.0 section 4(d),
+   everything in it must be reproduced by downstream users, so do not put
+   commentary, changelogs, or marketing here.]
+
+-----------------------------------------------------------------------------
+ THIRD PARTY COMPONENTS
+-----------------------------------------------------------------------------
+
+The Breathe License and the Commercial Terms cover only the parts of this work
+that <LEGAL ENTITY NAME> owns. The components listed below are authored by
+third parties and remain governed by their own licenses. Nothing in the Oxy
+terms overrides those licenses or reduces the rights they grant you.
+
+Fill in one block per component. Delete any section that does not apply.
+Remove this instruction line before shipping.
+
+--- Bundled or vendored source -----------------------------------------------
+
+  Component:  <NAME>
+  Version:    <VERSION>
+  License:    <SPDX IDENTIFIER>
+  Source:     <URL>
+  Location:   <PATH WITHIN THIS REPOSITORY>
+  Full text:  <PATH TO THE LICENSE FILE, e.g. licenses/<NAME>-LICENSE.txt>
+
+--- Dual licensed components: the election Oxy has made ----------------------
+
+  Where a component is offered under more than one license, this is the one
+  Oxy has chosen to receive it under. Recording the election matters: an
+  unrecorded election is what an audit flags.
+
+  Component:  <NAME>
+  Offered as: <LICENSE A> OR <LICENSE B>
+  Elected:    <LICENSE A>
+  Reason:     <e.g. permissive option, compatible with this work's license>
+
+  Example entries, replace with the real ones for this repository:
+
+  Component:  jszip
+  Offered as: MIT OR GPL-3.0-or-later
+  Elected:    MIT
+
+  Component:  node-forge
+  Offered as: BSD-3-Clause OR GPL-2.0
+  Elected:    BSD-3-Clause
+
+  Component:  @zone-eu/mailsplit
+  Offered as: MIT OR EUPL-1.1+
+  Elected:    MIT
+
+--- Separately licensed binaries invoked as separate programs ----------------
+
+  Components shipped alongside this work and executed as their own processes.
+  They are not linked into this work and do not make it a derivative of them,
+  but they carry their own obligations, which are stated here.
+
+  Component:   <NAME>
+  Version:     <VERSION>
+  License:     <SPDX IDENTIFIER>
+  How used:    Invoked as a separate executable. Not linked into this work.
+  Obligation:  <e.g. Corresponding source for this binary is offered at <URL>.>
+
+  Example entry, replace with the real one:
+
+  Component:   ffmpeg-static (bundled ffmpeg binary)
+  License:     GPL-3.0-or-later
+  How used:    Invoked as a separate executable process. Not linked in process.
+  Obligation:  Source for the distributed ffmpeg binary is available at
+               <URL>, and will be provided on request for at least three
+               years from the date of distribution.
+
+--- Dynamically linked libraries under the LGPL ------------------------------
+
+  Component:   <NAME>
+  Version:     <VERSION>
+  License:     <SPDX IDENTIFIER, e.g. LGPL-3.0-or-later>
+  How used:    Loaded as a separate shared library, not statically linked.
+  Obligation:  You may modify this component and relink it with this work.
+               Object files or the means to relink are available on request
+               at <CONTACT>.
+
+  Example entry, replace with the real one:
+
+  Component:   libvips, via @img/sharp-libvips-*
+  License:     LGPL-3.0-or-later
+  How used:    Loaded as a native shared library by the sharp Node addon.
+
+--- Fonts, icons, images, and other assets -----------------------------------
+
+  Asset:      <NAME>
+  License:    <e.g. SIL OFL 1.1, CC-BY-4.0>
+  Author:     <AUTHOR>
+  Source:     <URL>
+  Required attribution: <THE EXACT LINE THE LICENSE REQUIRES, IF ANY>
+
+-----------------------------------------------------------------------------
+ WHAT THIS FILE DOES NOT DO
+-----------------------------------------------------------------------------
+
+This file records components that sit alongside Oxy's own code. It cannot, and
+does not attempt to, separate Oxy's code from a work that is a derivative of
+copyleft licensed code. If GPL or AGPL code were combined into this work such
+that the combination is a derivative of it, that copyleft license would govern
+the whole combination, and no notice file would change that.
+
+That is why this repository must not take on a GPL or AGPL dependency that is
+linked in process. If you are adding one, stop and read
+https://github.com/OxyHQ/.github/blob/main/licensing/README.md
+
+-----------------------------------------------------------------------------
+ HOW TO REGENERATE
+-----------------------------------------------------------------------------
+
+Produce the raw inventory with:
+
+  bunx license-checker-rseidelsohn --production --summary
+  bunx license-checker-rseidelsohn --production --json > /tmp/licenses.json
+
+Then curate by hand. Do not commit the raw tool output as the NOTICE file: it
+lists hundreds of transitive dependencies, most of which need no notice, and it
+does not record dual license elections or the obligations above, which are the
+parts that actually matter.
+
+Review this file whenever a direct dependency is added or a major version is
+released.
