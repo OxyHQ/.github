@@ -127,7 +127,7 @@ You don't have to agree with us about everything. We specifically need people wh
 <div align="center">
 <sub><em>Oxy didn't appear because somebody spotted a market trend.<br>It started because something felt wrong and building an alternative seemed worth trying.</em></sub>
 <br><br>
-<sub>Oxy&trade; and the product names above are trademarks of The Oxy Collective Inc. <a href="https://github.com/OxyHQ/.github/blob/main/TRADEMARK.md">Trademark policy</a></sub>
+<sub>Oxy&trade; and the product names above are trademarks of The Oxy Collective, Inc. <a href="https://github.com/OxyHQ/.github/blob/main/TRADEMARK.md">Trademark policy</a></sub>
 <br>
 <sub>Licences are per repository. <a href="https://github.com/OxyHQ/.github/blob/main/LICENSE-BREATHE.md">The Breathe License</a> &middot; <a href="https://github.com/OxyHQ/.github/blob/main/licensing/README.md">how the layers work</a></sub>
 </div>

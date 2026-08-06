@@ -6,7 +6,7 @@ names, which work differently.
 ## The marks
 
 OXY, MENTION, BLOOM, CROWDSOURCE, SYRA, HOMIIO, ALIA, MERCARIA, MOOVO, SCHEDIO
-and TNP are trademarks of The Oxy Collective Inc, together with the Oxy logo and
+and TNP are trademarks of The Oxy Collective, Inc., together with the Oxy logo and
 the logos of each product.
 
 We claim them under common law through continuous public use. The earliest

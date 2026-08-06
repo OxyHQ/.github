@@ -124,15 +124,40 @@ not linked to a GitHub account.
 same two SHAs appearing in both `Mention` and `CrowdSource` because the
 repositories share history. Dated 2025-02-26.
 
-Almost certainly not copyrightable: dependency version bumps in a manifest are
-facts and formatting, below the threshold of originality in both US and EU law.
-But "almost certainly" is not how you want to start a commercial licensing
-programme. Cheapest fixes, in order:
+**Closed, on evidence, without needing the email.** The two diffs were read and
+the current trees were blamed. Step 2 of the plan below turned out to be
+unnecessary because step 2 had already happened, incidentally, years ago.
 
-1. Email them and ask for a one line license grant. Two commits, one email.
-2. If no reply, inspect the two diffs and rewrite those specific lines
-   independently, then record that you did.
-3. Only if both fail, treat it as a real blocker.
+What the two commits actually contain:
+
+- `afb4f4f`, the only non merge commit, changes **four lines of `package.json`**
+  (bump `react-native-svg` `15.8.0` to `^15.11.2`, drop
+  `react-native-svg-charts`) and replaces `yarn.lock` with `package-lock.json`.
+  Both lockfiles are machine generated.
+- `2beb4d4` is a **merge commit**. Its own contribution, the combined diff, is a
+  three line conflict resolution in `package.json`. The 355 line
+  `CreatePoll/index.tsx` and the rest of the feature work that
+  `git show --stat` prints against it came in through its second parent and is
+  authored by Nate Isern. Reading that stat as `alexlab84`'s work is the easy
+  mistake here, and it inverts the conclusion.
+
+Whether any of it survives, which is the question that actually decides this:
+
+| File | Ever touched by `alexlab84` | State on `main` today |
+| --- | --- | --- |
+| `package.json` | yes | exists, **0 lines blamed to them** |
+| `package-lock.json` | yes | **deleted** (both repos are bun monorepos now) |
+| `yarn.lock` | yes | **deleted** |
+
+Those are the only three files they ever touched, in either repository. So there
+are two independent reasons this does not block a relicence, and only one of
+them has to hold: dependency version strings in a manifest are facts and
+formatting, below the threshold of originality in both US and EU law; and in any
+case **none of their expression is in the work being relicensed.**
+
+Record this rather than reconstruct it later. The email is no longer worth
+sending, and a lawyer reviewing the commercial arm should be pointed at this
+paragraph.
 
 ### The machine contributors
 
@@ -151,10 +176,11 @@ should be written down once rather than reconstructed later.
 
 ### Conclusion on ownership
 
-**Nothing is hard blocked.** `Bloom` is cleanest, with a single human
-contributor and no bots. `oxy` and `website` are clean of outside humans.
-`Mention` and `CrowdSource` need the `alexlab84` question closed, which is one
-email.
+**Nothing is hard blocked, and nothing is left open either.** `Bloom` is
+cleanest, with a single human contributor and no bots. `oxy` and `website` are
+clean of outside humans. `Mention` and `CrowdSource` had the only outside human
+contributor, and that question is now closed on evidence rather than on an
+email: see above.
 
 ## 4. Third party copyleft inside the repositories
 
@@ -367,26 +393,30 @@ what draws the first outside pull requests.
    set it deliberately.
 3. Add a copyright line naming the owner to each existing `LICENSE`.
 4. Confirm the five git identities are all Nate.
-5. **Name the copyright holder consistently.** The licensor is **The Oxy
-   Foundation, Inc.**, and every document here says so.
+5. **Name the copyright holder consistently.** The licensor is
+   **The Oxy Collective, Inc.**, with that exact punctuation: a comma before
+   `Inc.` and a full stop after it. Every document here now says so.
 
-   **That entity is not registered yet.** The entity registered today is The
-   Oxy Collective Inc. Until The Oxy Foundation, Inc. exists in Delaware, no
-   work may carry these terms: a licence granted by an entity that does not
-   exist grants nothing. This is not a blocker in practice, because the
-   relicensing is already gated on the CLA and on moving the SDK layer to
-   Apache-2.0, both of which come first.
+   **This was decided after the analysis below was written**, and it changed
+   the answer. The original recommendation named The Oxy Foundation, Inc., an
+   entity that is still not registered, and concluded that no work could carry
+   these terms until it existed, because a licence granted by an entity that
+   does not exist grants nothing. The owner has since decided not to wait: the
+   licensor is the entity that exists today, and the Foundation, when it is
+   registered, will take the work by assignment.
 
    **The copyright does not move by itself.** Everything written so far belongs
-   to whoever holds it today. When The Oxy Foundation, Inc. is registered, the
-   copyright has to be assigned to it in writing, and until that assignment
-   exists the new entity cannot licence or invoice. Do the assignment at the
-   same time as the registration, not afterwards.
+   to The Oxy Collective, Inc. If the work is later moved to a successor
+   entity, the copyright has to be assigned in writing, and until that
+   assignment exists the new entity cannot licence or invoice. Do the
+   assignment at the same time as the registration, not afterwards.
 
-   The CLA has the mirror problem, since it names the entity contributions are
-   assigned to. Point it at The Oxy Foundation, Inc. from the first signature,
-   or leave it switched off until that entity exists. Changing the assignee
-   later means every signatory signs again.
+   The CLA no longer has the mirror problem it used to. It names
+   The Oxy Collective, Inc. as the entity contributions are licensed to, and it
+   carries a **successor clause** (Section 12) permitting those rights to pass
+   to an entity that continues the mission under the same obligations. That
+   clause is what stops every signatory having to sign again on the day the
+   work moves.
 
    The existing MIT files say "OxyHQ" and "Oxy HQ" inconsistently, and the AGPL
    LICENSE files in `oxy`, `Bloom` and `website` are the canonical FSF text with
@@ -398,8 +428,10 @@ what draws the first outside pull requests.
    table of each work.
 
 
-**Phase 1, ownership.** Set up the CLA and CLA Assistant on the Breathe layer.
-Close the `alexlab84` question with one email.
+**Phase 1, ownership.** Write the CLA, then set up CLA Assistant on the Breathe
+layer. The `alexlab84` question is closed; no email is needed. Note that writing
+the CLA and switching a bot on are separate decisions: the first is a document,
+the second changes the contribution flow on every pull request.
 
 **Phase 2, the SDK layer to Apache-2.0.** Highest value, lowest risk, since
 widening harms nobody. Major version each, with `NOTICE` files. Do this
@@ -423,17 +455,29 @@ from templates.
 
 ## 9. Blockers, in priority order
 
-1. **No confirmed legal entity.** Only a real legal person can offer the
-   Commercial Terms or invoice for them. **Blocks the entire commercial arm.**
-2. **No CLA.** Blocks accepting any outside contribution to a Breathe repository
-   without permanently breaking the commercial arm for it. A DCO is not enough.
+1. ~~**No confirmed legal entity.**~~ **Resolved by decision.** The licensor is
+   **The Oxy Collective, Inc.**, which exists today, rather than the
+   unregistered Foundation. Only a real legal person can offer the Commercial
+   Terms or invoice for them, and now one does. **Still outstanding, and still
+   blocking an invoice rather than the licence itself:** jurisdiction of
+   incorporation, registration number, and governing law are placeholders in
+   every Parameters table. They are visible placeholders on purpose; nobody
+   should guess them.
+2. **No CLA in force.** The document exists, names The Oxy Collective, Inc., and
+   carries a successor clause, but **no bot is installed and no signature has
+   been taken**. Until it is switched on, an outside contribution to a Breathe
+   repository still permanently breaks the commercial arm for that repository.
+   A DCO is not enough.
 3. **The SDK layer is AGPL on npm.** Blocks Phase 3 outright, since Breathe and
    the AGPL are incompatible. Also the current largest drag on adoption, at
    roughly 50,000 combined weekly downloads.
 4. **`@alia.onl/sdk` published with no license.** 9,821 weekly downloads nobody
    has permission to use. Independent of this project and the fastest fix here.
-5. **`alexlab84`'s two commits** in `Mention` and `CrowdSource`. Probably not
-   copyrightable; one email closes it.
+5. ~~**`alexlab84`'s two commits** in `Mention` and `CrowdSource`.~~
+   **Closed on evidence.** Four dependency manifest lines, two machine generated
+   lockfiles, and a three line merge conflict resolution. Both lockfiles are
+   deleted from `main` and `package.json` blames zero lines to them. Section 3
+   has the working.
 6. **`ffmpeg-static` (GPL-3.0-or-later) in `@oxyhq/api`.** Not a blocker today,
    because it runs as a separate process. Hard blocker the moment anyone links
    ffmpeg in process. Needs a `NOTICE` entry and a CI rule.
