@@ -84,7 +84,7 @@ money.
 
 ## Parameters
 
-Fill these in for each work. Terms in **bold** are defined in Section 15.
+Fill these in for each work. Capitalized terms are defined in Section 15.
 
 | Parameter | Value |
 | --- | --- |
