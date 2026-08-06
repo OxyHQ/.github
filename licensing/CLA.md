@@ -1,7 +1,14 @@
 # Contributor License Agreement
 
-> **Status: proposal.** Not yet in force. Not legal advice; have a lawyer review
-> this before accepting signatures against it.
+> **Status: drafted, not switched on.** The text below is settled on the one
+> question that used to block it: the entity contributions are licensed to is
+> **The Oxy Collective, Inc.**, which exists today. **No bot is installed and no
+> signature has been taken**, and turning one on is a separate decision that
+> changes the contribution flow on every pull request. Until it is taken, this
+> document binds nobody.
+>
+> Not legal advice; have a lawyer review this before accepting signatures
+> against it.
 
 ## Why this exists, in one paragraph
 
@@ -64,6 +71,11 @@ point of it being permissive.
 
 ## How to run it, the lightest way
 
+**None of the following has been done.** Step 1 is this file. Steps 2 to 4 are
+the switch, and the switch is off on purpose: installing a bot changes what
+every contributor sees on every pull request, which is a decision about how the
+project receives work, not about what this document says.
+
 1. Put [the agreement text](#the-agreement) in each Breathe repository, or once
    in `OxyHQ/.github` and link to it.
 2. Install **CLA Assistant**, a free GitHub app. It comments on a first time
@@ -98,7 +110,10 @@ licensing@oxy.so.
 Thank you for contributing to Oxy. This agreement sets out the terms on which
 you contribute. It is deliberately short.
 
-**1. Definitions.** "You" means the individual who accepts this agreement.
+**1. Definitions.** "Oxy" means **The Oxy Collective, Inc.**, a company
+incorporated in `<JURISDICTION OF INCORPORATION>` under registration number
+`<REGISTRATION NUMBER>`, and any successor to which this agreement is assigned
+under Section 12. "You" means the individual who accepts this agreement.
 "Contribution" means any original work of authorship, including any changes or
 additions to an existing work, that you intentionally submit to Oxy for
 inclusion in any project owned or managed by Oxy. "Submit" means any form of
@@ -171,6 +186,30 @@ have represented above becomes inaccurate.
 
 **11. Governing law.** This agreement is governed by the law of
 `<JURISDICTION>`, without regard to its conflict of law rules.
+
+**12. Successor entity.** Oxy may assign this agreement, together with the
+licenses you grant under Sections 3, 4 and 5, to a **single successor entity**
+that takes over stewardship of the project, but only where that successor first
+assumes in writing, for your benefit and the benefit of every other contributor,
+every obligation Oxy owes you under this agreement, **including Section 4.1**.
+On such an assignment the successor becomes "Oxy" for the purposes of this
+agreement, Oxy's own rights under it end, and Oxy publishes notice of the
+assignment in the project's repositories.
+
+This clause is deliberately narrow, and the narrowness is the point. It is
+**not** a right to sell, transfer, or sub-contract your Contribution to whoever
+is willing to pay for it. An assignment that does not carry Section 4.1 forward
+grants the assignee nothing under this agreement. If a successor could take your
+work free of the commitment never to make it proprietary or to strip your
+attribution, there would be no reason for you to sign this, and that is exactly
+the objection this clause exists to answer.
+
+It exists for one foreseeable event. Oxy intends to move this work to a
+foundation once that entity is registered. Without this clause, the day that
+happens every person who ever signed has to be found and asked to sign again,
+and the ones who cannot be found permanently break the commercial arm for the
+repositories they contributed to. With it, the deed of assignment carries the
+signatures along by itself.
 
 ---
 
