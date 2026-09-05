@@ -61,7 +61,7 @@ who owns the work. Fix this when relicensing.
 
 ### Repositories with no LICENSE file at all
 
-`Alia`, `Mercaria`, `OxyPay`, `Clarity`, `Space`, `Schedio`, `Moovo`,
+`Alia`, `Mercaria`, `Peable`, `Clarity`, `Space`, `Schedio`, `Moovo`,
 `examples`, `engineering`, `Astro`, `OxyOS` and the `OxyOS-*` family, and
 `.github` itself.
 
@@ -268,8 +268,8 @@ independent of whether Breathe is ever adopted.
 **Downstream MIT packages are now inconsistent.** `@oxyhq/crowdsource` (MIT,
 4,153 weekly downloads), `@syra.fm/sdk` (MIT, 3,457), and `@oxyhq/pay` (MIT, 2)
 are MIT SDKs whose parent applications are heading to Breathe. Decide
-deliberately: they belong in the Apache layer, and `@oxyhq/pay` in particular is
-a client library, not part of the OxyPay application.
+deliberately: they belong in the Apache layer, and `@peable/sdk` in particular is
+a client library, not part of the Peable application.
 
 ### Packages with no license field at all
 
@@ -342,7 +342,7 @@ defensible trade for the **applications**, so long as it is made with open eyes.
   protection because its value lies in being adopted.
 - **Breathe for the applications and servers:** `@oxyhq/api`, `@oxyhq/node`,
   `website`, `Mention`, `CrowdSource`, `Syra`, `Mercaria`, `Homiio`, `Moovo`,
-  `Space`, `Allo`, `Alia`, `OxyPay`. Nobody links an application into their
+  `Space`, `Allo`, `Alia`, `Peable`. Nobody links an application into their
   product, so the adoption cost is much lower and the revenue protection is
   real.
 
