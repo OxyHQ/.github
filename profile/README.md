@@ -56,7 +56,7 @@ Start at [**oxy**](https://github.com/OxyHQ/oxy), the platform the rest stands o
 |---|---|
 | [oxy](https://github.com/OxyHQ/oxy) | Identity, protocol, API, SDK, and the identity apps |
 | [Bloom](https://github.com/OxyHQ/Bloom) | Cross-platform UI library every app is built with |
-| [OxyPay](https://github.com/OxyHQ/OxyPay) | Payments platform · [SDK](https://github.com/OxyHQ/OxyPay/tree/main/packages/sdk) |
+| [Peable](https://github.com/OxyHQ/Peable) | Payments platform · [SDK](https://github.com/OxyHQ/Peable/tree/main/packages/sdk) |
 | [examples](https://github.com/OxyHQ/examples) | Runnable starters: Next.js, Vite, Expo |
 
 **People and speech**

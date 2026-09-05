@@ -62,7 +62,7 @@ and UI layer is Apache-2.0 and takes contributions under a DCO only. See
 **Required:** every repository in the Breathe layer, because those are the ones
 with a commercial arm. `@oxyhq/api`, `@oxyhq/node`, `website`, `Mention`,
 `CrowdSource`, `Syra`, `Mercaria`, `Homiio`, `Moovo`, `Space`, `Allo`, `Alia`,
-`OxyPay`.
+`Peable`.
 
 **Not required:** the Apache-2.0 SDK and UI layer. Apache-2.0 already contains
 an inbound contribution grant at its Section 5, which is sufficient. A DCO

@@ -31,11 +31,11 @@ integrating Oxy login cost money, nobody would integrate it.
 **Apache-2.0:** `@oxyhq/core`, `@oxyhq/services`, `@oxyhq/contracts`,
 `@oxyhq/protocol`, `@oxyhq/app-preset`, `@oxyhq/expo-splash`, `create-oxy-app`,
 `examples`, `Bloom`. Also recommended, pending a decision: `@oxyhq/federation`,
-`@oxyhq/ship`, and `@oxyhq/pay`, the OxyPay SDK, which is a client library and
-belongs with the SDKs rather than with the OxyPay application.
+`@oxyhq/ship`, and `@peable/sdk`, the Peable SDK, which is a client library and
+belongs with the SDKs rather than with the Peable application.
 
 **Breathe:** `@oxyhq/api`, `@oxyhq/node`, `website`, `Mention`, `CrowdSource`,
-`Syra`, `Mercaria`, `Homiio`, `Moovo`, `Space`, `Allo`, `Alia`, `OxyPay`.
+`Syra`, `Mercaria`, `Homiio`, `Moovo`, `Space`, `Allo`, `Alia`, `Peable`.
 
 **Watch the boundary.** An Apache-2.0 package must never depend on a Breathe
 package. The reverse is fine. As of this analysis the boundary is clean: no SDK
