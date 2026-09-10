@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Every repository in the [OxyHQ](https://github.com/OxyHQ) organisation is in scope, and every published `@oxyhq/*` package with it. We provide security updates for the latest release of each; older versions may not receive patches.
+Every repository in the [OxyHQ](https://github.com/OxyHQ) organisation is in scope, and every published `@oxy.so/*` package with it. We provide security updates for the latest release of each; older versions may not receive patches.
 
 Archived repositories are out of scope. They are marked as archived on their repository page.
 
