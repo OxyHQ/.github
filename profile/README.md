@@ -97,12 +97,12 @@ Start at [**oxy**](https://github.com/OxyHQ/oxy), the platform the rest stands o
 ## Build on Oxy
 
 ```bash
-bun add @oxyhq/services   # Expo, React Native and web, through React Native Web
-bun add @oxyhq/core       # API client, session engine, types, for any JavaScript runtime
+bun add @oxy.so/services   # Expo, React Native and web, through React Native Web
+bun add @oxy.so/core       # API client, session engine, types, for any JavaScript runtime
 ```
 
 ```tsx
-import { OxyProvider } from "@oxyhq/services";
+import { OxyProvider } from "@oxy.so/services";
 
 <OxyProvider clientId={process.env.OXY_CLIENT_ID} baseURL="https://api.oxy.so">
   <App />
