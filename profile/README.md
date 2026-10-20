@@ -94,6 +94,13 @@ Start at [**oxy**](https://github.com/OxyHQ/oxy), the platform the rest stands o
 </tr>
 </table>
 
+## Operating company
+
+Oxy Platforms, Inc. is being incorporated in Delaware as the intended operating
+company for Oxy services. This operating-company transition does not transfer
+the software or trademarks; the ownership notices below and in each repository
+remain separate.
+
 ## Build on Oxy
 
 ```bash
